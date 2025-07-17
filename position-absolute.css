@@ -13,6 +13,7 @@ h1 {
 }
 
 .map-container {
+  position: relative;
   margin: 30px auto 0 auto;
   width: 300px;
 }
@@ -23,7 +24,11 @@ img {
 }
 
 .sun-icon {
+  position: absolute;
   font-size: 40px;
+  top: 2px;
+  left: 100px;
+
 }
 
 .temperature {
@@ -33,4 +38,7 @@ Challenge:
    next to the sun emoji. 
 */
   font-size: 20px;
+  position: absolute;
+  top: 13px;
+  left: 160px;
 }
